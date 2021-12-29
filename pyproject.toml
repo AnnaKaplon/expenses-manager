@@ -7,6 +7,8 @@ authors = ["Anna Kapłon <anna.kaplon19@o2.pl>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 mypy = "^0.910"
+Django = "^3.2.5"
+django-stubs = "^1.8.0"
 
 [tool.poetry.dev-dependencies]
 
