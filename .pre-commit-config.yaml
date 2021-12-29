@@ -49,3 +49,7 @@ repos:
         # <https://github.com/python/mypy/issues/9977>. So run mypy sequentially in one
         # process.
         require_serial: true
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.17.0
+    hooks:
+      - id: yamllint
