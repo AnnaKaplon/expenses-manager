@@ -18,5 +18,11 @@ def main() -> None:
     execute_from_command_line(sys.argv)
 
 
+def foo() -> str:
+    """Test function."""
+    print("Test test!")
+    return "Test"
+
+
 if __name__ == "__main__":
     main()
